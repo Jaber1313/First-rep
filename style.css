@@ -164,21 +164,51 @@ section {
 }
 
 /* Mobile */
+/* Mobile adjustments */
 @media (max-width: 600px) {
+  /* Hero section */
   .hero h1 {
-    font-size: 2.2rem;
+    font-size: 2.5rem; /* bigger on phone */
+  }
+  .hero p {
+    font-size: 1.5rem;
   }
 
+  /* Story cards */
   .story .card {
-    padding: 25px;
+    padding: 25px 20px;
+    font-size: 1rem; /* make text bigger */
   }
 
+  .story h3 {
+    font-size: 1.3rem; /* card titles bigger */
+  }
+
+  /* Gallery images */
   .gallery img {
-    width: 190px;
+    width: 200px; /* slightly bigger */
   }
 
+  /* Letter section */
   .letter {
-    padding: 40px 20px;
+    padding: 50px 20px;
+  }
+  .letter h2 {
+    font-size: 1.8rem;
+  }
+  .letter p {
+    font-size: 1rem; /* bigger letter text */
+  }
+
+  /* Buttons */
+  .open-btn, .music-btn {
+    font-size: 1.1rem; /* bigger buttons for tapping */
+    padding: 18px 35px;
+  }
+
+  /* Ending */
+  .ending {
+    font-size: 2.2rem;
   }
 }
 /* Open Button */
